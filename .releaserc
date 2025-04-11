@@ -13,6 +13,10 @@
       "@semantic-release/git",
       {
         "assets": [
+          "scripts/**",
+          "action.yml",
+          "README.md",
+          "LICENSE",
           "package.json",
           "CHANGELOG.md"
         ],
