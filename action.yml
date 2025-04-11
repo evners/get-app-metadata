@@ -1,11 +1,12 @@
-# -------------------------------------------------------------------
-# GitHub Action: Hello World
-# Description: A simple composite action that greets someone,
-# generates a random number, and optionally runs a custom script.
-# -------------------------------------------------------------------
-
+# A simple composite action that greets someone, generates a random number, and optionally runs a custom script.
 name: "Hello World"
 description: "Greet someone"
+
+# Provides metadata about the action.
+author: "evners"
+branding:
+  icon: "code"
+  color: "green"
 
 # Define the inputs that users can pass to your action
 inputs:
